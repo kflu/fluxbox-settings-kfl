@@ -1,10 +1,11 @@
 #!/bin/sh
 
-unset http_proxy https_proxy
 yum install fluxbox \
             gmrun \
-            rxvt-unicode-256color \
+            rxvt-unicode-256color-ml \
             xterm \
             chromium-browser \
             xclip \
             xpdf \
+	    tigervnc-server \
+	    libXau libXext
