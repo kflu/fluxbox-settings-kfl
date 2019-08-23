@@ -18,8 +18,8 @@ ln -v -s -f $DIR/fluxbox/startup ~/.fluxbox/startup
 ln -v -s -f $DIR/fluxbox/windowmenu ~/.fluxbox/windowmenu
 ln -v -s -f -t ~/.fluxbox $DIR/fluxbox/styles
 
-# cat $DIR/fluxbox/styles/startrek.tar.gz | tar xzO > $DIR/fluxbox/styles/startrek.gitignore.xpm
-# ln -v -s -f $DIR/fluxbox/styles/startrek.gitignore.xpm $DIR/fluxbox/styles/Dyne/pixmaps/startrek.gitignore.xpm
+cat $DIR/fluxbox/styles/startrek.tar.gz | tar xzO > $DIR/fluxbox/styles/startrek.gitignore.xpm
+ln -v -s -f $DIR/fluxbox/styles/startrek.gitignore.xpm $DIR/fluxbox/styles/Dyne/pixmaps/startrek.gitignore.xpm
 
 mkdir -v -p ~/.fonts
 ln -v -s -f $DIR/.fonts/FreeSans.ttf ~/.fonts/FreeSans.ttf
