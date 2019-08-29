@@ -26,7 +26,7 @@ OnWindow Mod1 Mouse2 :Lower
 OnTitlebar Control Mouse1 :StartTabbing
 
 # double click on the titlebar to shade
-OnTitlebar Double Mouse1 :Maximize
+OnTitlebar Double Mouse1 :Shade
 
 # left click on the titlebar to move the window
 OnTitlebar Mouse1 :MacroCmd {Raise} {Focus} {ActivateTab}
