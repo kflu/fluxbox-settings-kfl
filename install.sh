@@ -7,9 +7,10 @@ touch ~/.Xresources.dpi
 
 mkdir -v -p ~/.fluxbox
 
-# copy the base init over: only set default style
-init_str="session.styleFile:	$HOME/.fluxbox/styles/Dyne"
-echo "$init_str" > ~/.fluxbox/init
+cat << EOF > ~/.fluxbox/init
+session.styleFile:	$HOME/.fluxbox/styles/Dyne
+session.screen0.toolbar.tools:	prevworkspace, workspacename, nextworkspace, iconbar, systemtray, clock, RootMenu
+EOF
 
 ln -v -s -f $DIR/fluxbox/keys ~/.fluxbox/keys
 ln -v -s -f $DIR/fluxbox/menu ~/.fluxbox/menu
