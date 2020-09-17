@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yum install fluxbox \
+dnf install fluxbox \
             gmrun \
             rxvt-unicode-256color-ml \
             xterm \
