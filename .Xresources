@@ -80,7 +80,7 @@ URxvt.geometry:             128x30
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt*font: xft:Monospace:pixelsize=14
+URxvt*font: xft:Monospace:pixelsize=14 ,xft:WenQuanYi Micro Hei Mono:regular:size=13:minspace=true
 
 ! Fix font space
 URxvt*letterSpace: -1

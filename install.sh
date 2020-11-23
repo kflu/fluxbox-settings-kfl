@@ -24,6 +24,8 @@ ln -v -s -f $DIR/fluxbox/styles/startrek.gitignore.xpm $DIR/fluxbox/styles/Dyne/
 
 mkdir -v -p ~/.fonts
 ln -v -s -f $DIR/.fonts/FreeSans.ttf ~/.fonts/FreeSans.ttf
+# Used in rxvt. From https://sourceforge.net/projects/wqy/
+ln -v -s -f $DIR/.fonts/wqy-microhei.ttc ~/.fonts/wqy-microhei.ttc
 
 mkdir -v -p ~/.urxvt/ext
 ln -v -s -f $DIR/.urxvt/ext/font-size ~/.urxvt/ext/font-size
