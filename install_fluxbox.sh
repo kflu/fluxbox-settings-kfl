@@ -1,7 +1,7 @@
 #!/bin/sh
 
-dnf install fluxbox \
-            xterm \
-            xclip \
-	    tigervnc-server \
-	    libXau libXext
+dnf install -y fluxbox \
+               xterm \
+               xclip \
+               tigervnc-server \
+               libXau libXext
