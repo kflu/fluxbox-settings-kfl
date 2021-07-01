@@ -8,6 +8,7 @@
 xterm*faceName: DejaVu Sans Mono Book
 xterm*faceSize: 10
 XTerm*utf8: 1
+xterm*termName: xterm-256color
 
 ! https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/xrdb/Builtin%20Dark.xrdb
 #define Ansi_0_Color #000000
