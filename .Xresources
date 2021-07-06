@@ -70,14 +70,6 @@ Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
 
 URxvt.depth:                32
 URxvt.geometry:             128x30
-! URxvt.transparent:          false
-! URxvt.fading:               0
-! URxvt.urgentOnBell:         true
-! URxvt.visualBell:           true
-! URxvt.loginShell:           true
-! URxvt.saveLines:            50
-! URxvt.internalBorder:       3
-! URxvt.lineSpace:            0
 
 ! Fonts
 URxvt.allow_bold:           true
@@ -90,11 +82,6 @@ URxvt*letterSpace: -1
 URxvt.scrollBar:            false       // use tmux
 URxvt.scrollBar_right:      true
 URxvt.scrollStyle:          plain
-
-! Perl extensions
-! URxvt.perl-ext-common:      default,matcher
-! URxvt.matcher.button:       1
-! URxvt.urlLauncher:          firefox
 
 URxvt*color0:       Ansi_0_Color
 URxvt*color1:       Ansi_1_Color
@@ -139,5 +126,3 @@ URxvt.keysym.C-Up:     font-size:increase
 URxvt.keysym.C-Down:   font-size:decrease
 URxvt.keysym.C-equal:  font-size:reset
 URxvt.keysym.C-slash:  font-size:show
-
-
