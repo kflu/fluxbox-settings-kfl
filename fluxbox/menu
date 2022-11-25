@@ -20,7 +20,7 @@
       [exec] (file explorer) {urxvt256c -e mc ~ ~}
       [exec] (xterm) {xterm}
       [exec] (urxvt) {urxvt256c-ml}
-      [exec] (chrome) {chromium-browser}
+      [exec] (chrome) {chrome}
       [exec] (firefox) {firefox}
       [exec] (gvim) {gvim}
 [submenu] (Fluxbox menu)
